@@ -1,0 +1,53 @@
+
+body{
+    font: 'Open Sans Condensed', sans-serif;;
+    background-color: rgba(19, 11, 1, 0.993);
+    color: yellow;
+    
+}
+
+img{
+    width: 20px;
+}
+
+a {
+    color: rgb(240, 186, 8);
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 50px;
+}
+
+
+.lista-menu{
+
+    list-style: none;
+    display: flex;
+    gap: 7%;
+
+
+}
+
+.imagem-banner{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+    margin: 20px 0;
+    display: block;
+    
+}
+
+.mapa{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.lista-rodape{
+    list-style: none;
+    display: flex;
+    gap: 3%;
+}
