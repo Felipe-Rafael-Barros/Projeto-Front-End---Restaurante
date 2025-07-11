@@ -1,12 +1,13 @@
 
 body{
-    font: 'Open Sans Condensed', sans-serif;;
     background-color: rgba(19, 11, 1, 0.993);
     color: yellow;
+    font-family: 'Poppins', sans-serif;
     
 }
 h1{
     text-align: center;
+    
 }
 
 
@@ -24,7 +25,6 @@ a {
 
 .lista-menu{
 
-    list-style: none;
     display: flex;
     gap: 7%;
     align-items: center;
@@ -58,9 +58,10 @@ a {
     border-radius: 10px;
 }
 
-.mapa{
-    width: 300px;
-    height: 300px;
+.localizacao{
+    text-align: center;
+
+    
 }
 
 
@@ -70,4 +71,5 @@ a {
     display: flex;
     gap: 3%;
     justify-content: center;
+    align-items: center;
 }
