@@ -5,10 +5,11 @@ body{
     color: yellow;
     
 }
-
-img{
-    width: 20px;
+h1{
+    text-align: center;
 }
+
+
 
 a {
     color: rgb(240, 186, 8);
@@ -37,6 +38,19 @@ a {
     margin: 20px 0;
     display: block;
     
+}
+
+.cardapio{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prato{
+    text-align: center;
+    border:  1px solid  rgb(240, 186, 8);;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .mapa{
