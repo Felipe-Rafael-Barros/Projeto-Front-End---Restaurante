@@ -34,6 +34,18 @@ a {
 
 }
 
+nav div ul li a{
+    color:  rgb(240, 186, 8);
+    text-decoration: none;
+}
+nav div ul li a:hover{
+    color: rgb(48, 12, 255);
+    background-color: rgb(240, 186, 8);
+    border-radius: 35%;
+    
+}
+
+
 .imagem-banner{
     width: 100%;
     height: auto;
@@ -89,3 +101,29 @@ a {
   
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+div form a {
+    color:  rgb(0, 0, 0);
+    font-size: small;
+}
+
+div form a:hover {
+    color: rgb(48, 12, 255);
+}
+
+div form button{
+    background-color: rgba(19, 11, 1, 0.993);
+    color: rgb(240, 186, 8);
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    
+}
+div form button:hover{
+    background-color: #55c02b;
+    color: black;
+
+}
+
