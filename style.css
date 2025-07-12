@@ -87,20 +87,7 @@ nav div ul li a:hover{
     
 }
 
-.tela-login{
 
-    align-items: center;
-    justify-items: center;
-    color:black;
-    
-}
-.formulario-login {
-  background: rgb(240, 186, 8);
-  padding: 30px;
-  border-radius: 10px;
-  
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 
 div form a {
     color:  rgb(0, 0, 0);
@@ -110,6 +97,10 @@ div form a {
 div form a:hover {
     color: rgb(48, 12, 255);
 }
+
+
+/* Tela de login */
+
 
 div form button{
     background-color: rgba(19, 11, 1, 0.993);
@@ -125,5 +116,43 @@ div form button:hover{
     background-color: #55c02b;
     color: black;
 
+}
+
+
+
+.tela-login{
+
+    align-items: center;
+    justify-items: center;
+    color:black;
+    
+}
+.formulario-login {
+  background: rgb(240, 186, 8);
+  padding: 30px;
+  border-radius: 10px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Tela de registro */
+
+.main-registro {
+  color:black;
+  justify-items: center;
+
+  
+}
+
+.tela-registro{
+    background-color: rgb(240, 186, 8); 
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.formulario-registro{
+    display:flex;
+    flex-direction: column;
+    
 }
 
