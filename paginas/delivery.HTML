@@ -25,7 +25,47 @@
     </header>
 
     <main>
+        <form id="pedido">
+            <h3> Qual o prato selecionado?</h3><br>
+            <select name="pratos" id="">
+            <option value="">Selecione o prato</option>
+            <option value="Bife a cavalo">Bife a cavalo</option>
+            <option value="Moqueca de peixe">Moqueca de peixe</option>
+            <option value="Linguaça toscana com feijão tropeiro">Linguaça toscana com feijão tropeiro</option>
+            <option value="Frango grelado com legumes">Frango grelado com legumes</option>
+            <option value="Carne de sol com macaxeira">Carne de sol com macaxeira</option>
+            <option value="Costelinha de porco com pure de batatas">Costelinha de porco com pure de batatas          
+            <option value="Picadinho de carne com arroz, feijão e ovo frito">Picadinho de carne com arroz, feijão e ovo frito</option>
+            <option value="Strogonoff de frango">Strogonoff de frango</option>
+        </select><br>
         
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda"  value="sim"> Sim 
+        <input type="radio" name="borda"  value="nao"> Não <br>
+
+
+        <p>Bebida</p>
+        <input type="radio" name="bebida"  value="suco"> Suco<br>
+        <input type="radio" name="bebida"  value="refrigerante"> Coca cola de 1 litro<br>
+        <input type="radio" name="bebida"  value="agua"> Antártica de 1 litro<br>
+        <input type="radio" name="bebida"  value="nenhum"> Nenhum<br>
+
+        <p>Acompanhamentos</p>
+        <input type="checkbox" name="opcional[]"  value="arroz"> + 1 poção de arroz<br>
+        <input type="checkbox" name="opcional[]"  value="feijao"> + 1 poção de feijão<br>
+        <input type="checkbox" name="opcional[]"  value="batata"> + 1 poção de batata<br>
+        <input type="checkbox" name="opcional[]"  value="farofa"> + Farofa<br>
+        <input type="checkbox" name="opcional[]"  value="azeitona"> + Salada<br>
+        <input type="checkbox" name="opcional[]"  value="azeitona"> + Legumes<br>
+
+        <p>Molhos</p>
+        <input type="checkbox" name="opcional[]"  value="barbecue"> + Barbecue<br>
+        <input type="checkbox" name="opcional[]"  value="mostarda"> + Mostarda<br>
+        <input type="checkbox" name="opcional[]"  value="mel"> + Mel<br>
+        <input type="checkbox" name="opcional[]"  value="Chimichurri"> + Chimichurri<br>
+
+        <button>Realizar pedido</button>
+        </form>
     </main>
 
     <footer>
